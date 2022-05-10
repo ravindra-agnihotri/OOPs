@@ -1,0 +1,34 @@
+Abstraction's hindi meaning is saranshan(means summary)
+
+so to achieve this concept, if i'll create a method with body then it wont be summary(saransh),
+so to achieve this we use a keyword :- abstract in every ,method.
+
+Now abstraction can be achieved by 2 ways:
+1. By using Abstract Class
+2 By using Interface
+
+1. Abstract class-  A class which is abstract to aisa dikhane ke liye ham class name ke pehle abstract shabd laga dete hai
+ - Ab when I am saying Abstract class so I never said it it can have only saransh, so it can have a method which can
+ have body also. Now some rules for Abstract class.
+
+i. It can have abstract and non-abstract(matlab normal method bhi).
+
+ii. A static method cannot be abstract(reason: static method ko apan class name reference se bulate hai, to ek method
+jisme body nahi hai maine use class name reference se bula lia to main execute kya karunga? halua?? kuki usme to
+body hi nahi hai na..
+
+iii. We cannot create abstract class object. (reason:abstract claa mai abstract method hoti hai jo ki non-static
+hoti hai aur agar mai non-static abstract method ko object se call kar lia to execute kya karunga?? halua again?
+isliye java ne bola ki bhai risk-ich nai chaiye; aur usne bola object nahi banane denge)
+
+iv. Now when we are saying that we cannot create object of abstract class to Java k fundo k hisab se constructor bhi nahi
+hoga abstract class mai kuki object constructor hi to banvata na, but aisa nahi hai..isme constructor hote hai but
+us constructor ko class k variables ko invoke karne(hindi mai bole to jagrut karne) ke liye use hota hai
+
+v. Now topic comes, ki the methods which are abstract(mtlb jinki body nahi hai to unko likh k kya achar dalunga mai?)
+nahi na..islie wo abstract abni abstract methods uske niche wali classes(child class) mtlb jo usko extnd kar rahe hai
+unse ye abstract method mai body dalva leti
+
+vi. abstract class cannot guarantee 100% abstraction( ab kaise guarantee degi jab wo khud allow karti non-abstract methods ko bhi)
+
+vii. baki ke sare rules normal class ke apply honge ispe ab inke alawa
